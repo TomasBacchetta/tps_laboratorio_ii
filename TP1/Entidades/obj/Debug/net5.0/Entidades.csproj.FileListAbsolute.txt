@@ -1,0 +1,12 @@
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\bin\Debug\net5.0\Entidades.deps.json
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\bin\Debug\net5.0\Entidades.dll
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\bin\Debug\net5.0\Entidades.pdb
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\obj\Debug\net5.0\Entidades.dll
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+C:\Users\tomas\Desktop\UTN\2do Cuatri\Programacion II\TPS\Entidades\Entidades\obj\Debug\net5.0\Entidades.pdb
