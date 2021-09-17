@@ -47,7 +47,7 @@ namespace MiCalculadora
             this.txtNumero2.Location = new System.Drawing.Point(194, 60);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(95, 34);
-            this.txtNumero2.TabIndex = 1;
+            this.txtNumero2.TabIndex = 2;
             this.txtNumero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtNumero1
@@ -56,7 +56,7 @@ namespace MiCalculadora
             this.txtNumero1.Location = new System.Drawing.Point(12, 60);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(95, 34);
-            this.txtNumero1.TabIndex = 2;
+            this.txtNumero1.TabIndex = 0;
             this.txtNumero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // cmbOperador
@@ -67,7 +67,7 @@ namespace MiCalculadora
             this.cmbOperador.Location = new System.Drawing.Point(124, 60);
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(45, 36);
-            this.cmbOperador.TabIndex = 3;
+            this.cmbOperador.TabIndex = 1;
             // 
             // lblResultado
             // 
@@ -88,13 +88,14 @@ namespace MiCalculadora
             this.lstOperaciones.Name = "lstOperaciones";
             this.lstOperaciones.Size = new System.Drawing.Size(156, 204);
             this.lstOperaciones.TabIndex = 5;
+            this.lstOperaciones.TabStop = false;
             // 
             // btnOperar
             // 
             this.btnOperar.Location = new System.Drawing.Point(12, 128);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(95, 33);
-            this.btnOperar.TabIndex = 6;
+            this.btnOperar.TabIndex = 3;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
             this.btnOperar.Click += new System.EventHandler(this.btnOperar_Click);
@@ -104,7 +105,7 @@ namespace MiCalculadora
             this.btnLimpiar.Location = new System.Drawing.Point(113, 128);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(75, 33);
-            this.btnLimpiar.TabIndex = 7;
+            this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
@@ -114,7 +115,7 @@ namespace MiCalculadora
             this.btnCerrar.Location = new System.Drawing.Point(194, 128);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(95, 33);
-            this.btnCerrar.TabIndex = 8;
+            this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -124,7 +125,7 @@ namespace MiCalculadora
             this.btnConvertirABinario.Location = new System.Drawing.Point(12, 186);
             this.btnConvertirABinario.Name = "btnConvertirABinario";
             this.btnConvertirABinario.Size = new System.Drawing.Size(134, 33);
-            this.btnConvertirABinario.TabIndex = 9;
+            this.btnConvertirABinario.TabIndex = 6;
             this.btnConvertirABinario.Text = "Convertir a Binario";
             this.btnConvertirABinario.UseVisualStyleBackColor = true;
             this.btnConvertirABinario.Click += new System.EventHandler(this.btnConvertirABinario_Click);
@@ -134,7 +135,7 @@ namespace MiCalculadora
             this.btnConvertirADecimal.Location = new System.Drawing.Point(155, 186);
             this.btnConvertirADecimal.Name = "btnConvertirADecimal";
             this.btnConvertirADecimal.Size = new System.Drawing.Size(134, 33);
-            this.btnConvertirADecimal.TabIndex = 10;
+            this.btnConvertirADecimal.TabIndex = 7;
             this.btnConvertirADecimal.Text = "Convertir a Decimal";
             this.btnConvertirADecimal.UseVisualStyleBackColor = true;
             this.btnConvertirADecimal.Click += new System.EventHandler(this.btnConvertirADecimal_Click);
