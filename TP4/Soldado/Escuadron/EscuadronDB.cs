@@ -16,7 +16,7 @@ namespace Entidades
         private static SqlConnection conexion;
         static EscuadronDB()
         {
-            string cadenaConexion = @"Data Source =./;Initial Catalog=REGISTROINCURSIONES_DB;Integrated Security=True";
+            string cadenaConexion = ConnectionString.cadenaConexion;
             comando = new SqlCommand();
             conexion = new SqlConnection(cadenaConexion);
             comando.Connection = conexion;
