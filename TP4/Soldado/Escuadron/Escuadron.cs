@@ -166,11 +166,23 @@ namespace Entidades
         /// <returns></returns>
         public static bool operator +(Escuadron escuadron, Soldado soldado)
         {
-            if (soldado is not null && escuadron != soldado && soldado.EscuadronAsignado == NombreEscuadron.Ninguno)
+            if (soldado is not null)
             {
-                soldado.EscuadronAsignado = escuadron.nombre;
-                escuadron.MiembrosEscuadron.Add(soldado);
-                return true;
+                if (escuadron != soldado)
+                {
+                    if (soldado.EscuadronAsignado == NombreEscuadron.Ninguno)
+                    {
+                        soldado.EscuadronAsignado = escuadron.nombre;
+                        escuadron.MiembrosEscuadron.Add(soldado);
+                        return true;
+                    } else
+                    {
+                        throw new SoldadoYaEnOtroEscuadronException("El soldado ya está en un escuadrón. Debe echarlo de su escuadrón antes de poder asignarlo a otro (puede hacerlo desde 'Ver Escuadrón')");
+
+                    }
+                    
+                } 
+
             }
             return false;
         }

@@ -16,7 +16,7 @@ namespace Entidades
         private static SqlConnection conexion;
         static EscuadronDB()
         {
-            string cadenaConexion = ConnectionString.cadenaConexion;
+            string cadenaConexion = ConexionDB.cadenaConexion;
             comando = new SqlCommand();
             conexion = new SqlConnection(cadenaConexion);
             comando.Connection = conexion;

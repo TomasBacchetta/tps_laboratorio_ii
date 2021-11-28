@@ -157,16 +157,25 @@ namespace Vista
                 MessageBox.Show("O el soldado o el escuadrón están actualmente en una misión. No se puede asignar");
             } else
             {
-                if (auxEscuadron + auxSoldado)
+                try
                 {
-                    MessageBox.Show($"Soldado agregado a escuadrón {auxEscuadron.Nombre}");
-                    ImprimirIntegrantesEscuadron();
-                    ActualizarVistaSoldado();
+                    if (auxEscuadron + auxSoldado)
+                    {
+                        MessageBox.Show($"Soldado agregado a escuadrón {auxEscuadron.Nombre}");
+                        ImprimirIntegrantesEscuadron();
+                        ActualizarVistaSoldado();
+                    }
+                    else
+                    {
+                        MessageBox.Show($"No se pudo asignar. Recuerde que un escuadrón deberá tener cuatro miembros, y todas las clases de soldado deben estar presentes (Asalto, Médico, Técnico y Reconocimiento).");
+                    }
                 }
-                else
+                catch (SoldadoYaEnOtroEscuadronException ex)
                 {
-                    MessageBox.Show($"No se pudo asignar");
+                    MessageBox.Show(ex.Message, "Atención");
                 }
+                
+                
             }
             
         }
@@ -639,7 +648,7 @@ namespace Vista
             }
             catch(Exception)
             {
-                MessageBox.Show("Error de conexión con la base de datos. Recuerde importar en SQL Studio la base de datos en base al archivo .bak proporcionado en la carpeta de la solución. Se cerrará el programa", "Error de conexión");
+                MessageBox.Show("Error de conexión con la base de datos. Recuerde ejecutar el script proporcionado en la carpeta de la solución, o importar en SQL Studio la base de datos. Se cerrará el programa", "Error de conexión");
                 this.Close();
             }
             

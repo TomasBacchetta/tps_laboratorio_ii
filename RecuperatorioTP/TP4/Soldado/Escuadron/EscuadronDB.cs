@@ -44,7 +44,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
         }
         public static void EliminarTodo()
@@ -63,7 +67,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
         }
 
@@ -90,7 +98,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
 
         }
@@ -126,7 +138,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
             return arrayEstadisticas;
         }

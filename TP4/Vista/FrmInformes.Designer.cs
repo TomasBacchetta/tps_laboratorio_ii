@@ -61,7 +61,7 @@ namespace Vista
             this.Controls.Add(this.rtbInforme);
             this.Name = "FrmInformes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmInformes";
+            this.Text = "Informes";
             this.ResumeLayout(false);
 
         }

@@ -195,7 +195,7 @@ namespace Vista
             // 
             // btnVaciarEscuadron
             // 
-            this.btnVaciarEscuadron.Location = new System.Drawing.Point(64, 430);
+            this.btnVaciarEscuadron.Location = new System.Drawing.Point(64, 432);
             this.btnVaciarEscuadron.Name = "btnVaciarEscuadron";
             this.btnVaciarEscuadron.Size = new System.Drawing.Size(139, 47);
             this.btnVaciarEscuadron.TabIndex = 4;
@@ -206,7 +206,7 @@ namespace Vista
             // btnDesplegar
             // 
             this.btnDesplegar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnDesplegar.Location = new System.Drawing.Point(75, 40);
+            this.btnDesplegar.Location = new System.Drawing.Point(75, 34);
             this.btnDesplegar.Name = "btnDesplegar";
             this.btnDesplegar.Size = new System.Drawing.Size(118, 39);
             this.btnDesplegar.TabIndex = 3;
@@ -216,7 +216,7 @@ namespace Vista
             // 
             // btnVerEscuadron
             // 
-            this.btnVerEscuadron.Location = new System.Drawing.Point(64, 369);
+            this.btnVerEscuadron.Location = new System.Drawing.Point(64, 378);
             this.btnVerEscuadron.Name = "btnVerEscuadron";
             this.btnVerEscuadron.Size = new System.Drawing.Size(139, 46);
             this.btnVerEscuadron.TabIndex = 1;
@@ -228,7 +228,7 @@ namespace Vista
             // 
             this.lstbEscuadrones.FormattingEnabled = true;
             this.lstbEscuadrones.ItemHeight = 15;
-            this.lstbEscuadrones.Location = new System.Drawing.Point(18, 99);
+            this.lstbEscuadrones.Location = new System.Drawing.Point(18, 86);
             this.lstbEscuadrones.Name = "lstbEscuadrones";
             this.lstbEscuadrones.Size = new System.Drawing.Size(222, 169);
             this.lstbEscuadrones.TabIndex = 0;
@@ -290,7 +290,7 @@ namespace Vista
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Vista.Properties.Resources.fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(942, 563);
+            this.ClientSize = new System.Drawing.Size(942, 577);
             this.Controls.Add(this.gpbSoldado);
             this.Controls.Add(this.btnAsignar);
             this.Controls.Add(this.gpbEscuadrones);

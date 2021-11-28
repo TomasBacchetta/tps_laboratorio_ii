@@ -271,6 +271,7 @@ namespace Vista
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmModificarSoldado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Soldado";
             this.gpbClase.ResumeLayout(false);
             this.gpbClase.PerformLayout();

@@ -82,5 +82,27 @@ namespace Entidades
             
         }
 
+        public Soldado.ClaseSoldado RetornarClaseDeSoldadoParaEstaArma()
+        {
+            Soldado.ClaseSoldado retorno = Soldado.ClaseSoldado.Asalto;
+            switch (this.tipo)
+            {
+                case Tipo.Carabina:
+                    retorno = Soldado.ClaseSoldado.Asalto;            
+                    break;
+                case Tipo.SubFusil:
+                    retorno = Soldado.ClaseSoldado.Medico;
+                    break;
+                case Tipo.Pistola:
+                    retorno = Soldado.ClaseSoldado.Tecnico;
+                    break;
+                case Tipo.Rifle:
+                    retorno = Soldado.ClaseSoldado.Reconocimiento;
+                    break;
+            }
+
+            return retorno;
+        }
+
     }
 }

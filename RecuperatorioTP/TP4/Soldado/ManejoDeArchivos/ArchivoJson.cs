@@ -55,7 +55,7 @@ namespace Entidades
                     JsonSerializerOptions opciones = new JsonSerializerOptions();
                     opciones.WriteIndented = true;
 
-                    string json = JsonSerializer.Serialize(data);
+                    string json = JsonSerializer.Serialize(data, opciones);
                     streamWriter.Write(json);
 
                 }
@@ -71,7 +71,7 @@ namespace Entidades
                     JsonSerializerOptions opciones = new JsonSerializerOptions();
                     opciones.WriteIndented = true;
 
-                    string json = JsonSerializer.Serialize(data);
+                    string json = JsonSerializer.Serialize(data, opciones);
                     streamWriter.Write(json);
 
                 }

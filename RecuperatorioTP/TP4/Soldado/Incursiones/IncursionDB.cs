@@ -63,7 +63,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
 
         }
@@ -87,7 +91,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
         }
 
@@ -120,7 +128,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
 
         }
@@ -191,7 +203,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
             return lista;
 
@@ -226,7 +242,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
 
             return numeroIncursion;
@@ -264,7 +284,11 @@ namespace Entidades
             }
             finally
             {
-                conexion.Close();
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+
+                }
             }
             return cantidadRepeticionesLugar;
         }
